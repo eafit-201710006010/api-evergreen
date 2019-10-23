@@ -15,3 +15,4 @@ def postOne():
     print("indicadores post")
     body = request.json
     return (Indicador.crear(body))
+app.run()

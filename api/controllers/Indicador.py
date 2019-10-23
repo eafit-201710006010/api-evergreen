@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from db.db import conn
+from api.db.db import cnx
 
 class Indicador():
     global cur
